@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ShapeCalculator/ShapeCalculator.csproj" />
+  <Project Path="ShapeCalculatorUnitTest/ShapeCalculatorUnitTest.csproj" />
+</Solution>
