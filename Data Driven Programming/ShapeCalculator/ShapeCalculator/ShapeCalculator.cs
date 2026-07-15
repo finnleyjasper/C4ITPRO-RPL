@@ -80,6 +80,29 @@ public sealed class ShapeCalculator
         Console.WriteLine($"Successfully added a {shape.Name} with side length(s): {string.Join(", ", shape.Sides)}");
     }
 
+    public void AddShape(string shapeName) // alt without parameters, so shape's defult constructors can be used
+    {
+        Shape shape;
+
+        switch (shapeName.Trim().ToLowerInvariant()) // Clean the name again
+        {
+            case "rectangle":
+                shape = new Rectangle();
+                break;
+            case "triangle":
+                shape = new Triangle();
+                break;
+            case "square":
+                shape = new Square();
+                break;
+            default:
+                throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Rectangle, Square or Triangle.");
+        }
+
+        _shapes.Add(shape);
+        Console.WriteLine($"Successfully added a {shape.Name} with DEFAULT side length(s): {string.Join(", ", shape.Sides)}");
+    }
+
     /// <summary>
     /// Lists all the shapes to the console, including their names and side lengths.
     /// </summary>

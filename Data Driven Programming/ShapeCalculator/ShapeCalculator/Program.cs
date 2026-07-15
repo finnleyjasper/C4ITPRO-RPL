@@ -64,11 +64,10 @@ internal static class Program
                                 // Attempt to split the input based on commas, trim whitespace, and convert to integers
                                 int[] sideLengths = sideLengthsInput.Split(',').Select(s => int.Parse(s.Trim())).ToArray();
                                 shapeCalculator.AddShape(newShapeName, sideLengths);
-                                Console.WriteLine($"The {newShapeName} was added successfully.");
                             }
                             else
                             {
-                                Console.WriteLine("No side lengths were entered. Returning to the main menu.");
+                                shapeCalculator.AddShape(newShapeName);
                             }
                         }
                     }

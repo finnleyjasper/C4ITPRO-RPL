@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|c:\\giftofgod\\holmesglen\\data driven apps\\class\\studentproject\\studentproject\\data\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\data\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|c:\\giftofgod\\holmesglen\\data driven apps\\class\\studentproject\\studentproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|c:\\giftofgod\\holmesglen\\data driven apps\\class\\studentproject\\studentproject\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\studentproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|c:\\giftofgod\\holmesglen\\data driven apps\\class\\studentproject\\studentproject\\myexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894B6BB0-FB92-F5BE-7848-EBFDA416EBFB}|StudentProject\\StudentProject.csproj|solutionrelative:studentproject\\myexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataLayer.cs",
+              "DocumentMoniker": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Data\\DataLayer.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Data\\DataLayer.cs",
+              "ToolTip": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Data\\DataLayer.cs",
+              "RelativeToolTip": "StudentProject\\Data\\DataLayer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T03:34:51.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Form1.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Form1.cs",
+              "ToolTip": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Form1.cs",
+              "RelativeToolTip": "StudentProject\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T04:23:20.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Form1.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Form1.cs",
+              "ToolTip": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Form1.cs [Design]",
+              "RelativeToolTip": "StudentProject\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T03:15:59.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Helper.cs",
+              "RelativeDocumentMoniker": "StudentProject\\Helper.cs",
+              "ToolTip": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\Helper.cs",
+              "RelativeToolTip": "StudentProject\\Helper.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T03:09:33.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyException.cs",
+              "DocumentMoniker": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\MyException.cs",
+              "RelativeDocumentMoniker": "StudentProject\\MyException.cs",
+              "ToolTip": "C:\\GiftofGod\\Holmesglen\\Data Driven Apps\\Class\\StudentProject\\StudentProject\\MyException.cs",
+              "RelativeToolTip": "StudentProject\\MyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:02:20.095Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
