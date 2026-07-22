@@ -36,6 +36,15 @@ namespace ShapeCalculatorUnitTest;
         }
 
         [TestMethod]
+        public void TestCirclePerimeter()
+        {
+            int expectedOutput = 31;
+            Circle c = new Circle([5]);
+            int actualOutput = c.CalculatePerimeter();
+            Assert.AreEqual(expectedOutput, actualOutput);
+        }
+
+        [TestMethod]
         public void TestRectanglePerimeter()
         {
             int expectedOutput = 16;
@@ -53,6 +62,13 @@ namespace ShapeCalculatorUnitTest;
             Assert.AreEqual(expectedOutput, actualOutput);
         }
 
+        [TestMethod]
+        public void TestTrapezoidPerimeter()
+        {
+            Trapezoid trapezoid = new Trapezoid([10, 4, 5, 5, 4]);
+            Assert.AreEqual(24, trapezoid.CalculatePerimeter());
+        }
+
         // Area unit functional tests -----------------------
         [TestMethod]
         public void TestSquareArea()
@@ -60,6 +76,15 @@ namespace ShapeCalculatorUnitTest;
             int expectedOutput = 25;
             Square s = new Square([5]);
             int actualOutput = s.CalculateArea();
+            Assert.AreEqual(expectedOutput, actualOutput);
+        }
+
+        [TestMethod]
+        public void TestCircleArea()
+        {
+            int expectedOutput = 78;
+            Circle c = new Circle([5]);
+            int actualOutput = c.CalculateArea();
             Assert.AreEqual(expectedOutput, actualOutput);
         }
 
@@ -81,8 +106,45 @@ namespace ShapeCalculatorUnitTest;
             Assert.AreEqual(expectedOutput, actualOutput);
         }
 
+        [TestMethod]
+        public void TestTrapezoidArea()
+        {
+            Trapezoid trapezoid = new Trapezoid([10, 4, 5, 5, 4]);
+            Assert.AreEqual(28, trapezoid.CalculateArea());
+        }
+
 
         // Equivalance partition tests -----------------------
+
+        [TestMethod]
+        public void TestTrapezoidRequiresFiveMeasurements()
+        {
+            Assert.ThrowsExactly<ArgumentException>(() => new Trapezoid([10, 4, 5, 5]));
+        }
+
+        [TestMethod]
+        public void TestTrapezoidRejectsHeightGreaterThanSide()
+        {
+            Assert.ThrowsExactly<ArgumentException>(() => new Trapezoid([10, 4, 5, 5, 6]));
+        }
+
+        [TestMethod]
+        public void TestTrapezoidRejectsImpossibleMeasurements()
+        {
+            Assert.ThrowsExactly<ArgumentException>(() => new Trapezoid([10, 4, 5, 5, 3]));
+        }
+
+        [TestMethod]
+        public void TestCircleInputsEqPartition()
+        {
+            Assert.ThrowsExactly<ArgumentException>(() => new Circle([5, 5]));
+        }
+
+        [TestMethod]
+        public void TestCircleNegRadiusEqPartition()
+        {
+            Assert.ThrowsExactly<ArgumentOutOfRangeException>(() => new Circle([-5]));
+        }
 
         [TestMethod]
         public void TestSquareInputsEqPartition()

@@ -24,7 +24,7 @@ public sealed class ShapeCalculator
     /// Creates a supported shape and adds it to the calculator's collection.
     /// </summary>
     /// <param name="shapeName">
-    /// The shape type. Supported values are Rectangle, Triangle and Square.
+    /// The shape type. Supported values are Circle, Rectangle, Square, Trapezoid and Triangle.
     /// </param>
     /// <exception cref="ArgumentException">
     /// Thrown when the shape name is unsupported.
@@ -38,9 +38,9 @@ public sealed class ShapeCalculator
         // A case-insensitive comparison cause Rectangle & rEcTaNgLe should both work
         shapeName = shapeName.Trim().ToLowerInvariant();
 
-        if (shapeName != "rectangle" && shapeName != "triangle" && shapeName != "square")
+        if (shapeName != "circle" && shapeName != "rectangle" && shapeName != "triangle" && shapeName != "square" && shapeName != "trapezoid")
         {
-            throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Rectangle, Square or Triangle.");
+            throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Circle, Rectangle, Square, Trapezoid or Triangle.");
         }
         else
         {
@@ -63,6 +63,9 @@ public sealed class ShapeCalculator
 
         switch (shapeName.Trim().ToLowerInvariant()) // Clean the name again
         {
+            case "circle":
+                shape = new Circle(sideLengths);
+                break;
             case "rectangle":
                 shape = new Rectangle(sideLengths);
                 break;
@@ -72,8 +75,11 @@ public sealed class ShapeCalculator
             case "square":
                 shape = new Square(sideLengths);
                 break;
+            case "trapezoid":
+                shape = new Trapezoid(sideLengths);
+                break;
             default:
-                throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Rectangle, Square or Triangle.");
+                throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Circle, Rectangle, Square, Trapezoid or Triangle.");
         }
 
         _shapes.Add(shape);
@@ -86,6 +92,9 @@ public sealed class ShapeCalculator
 
         switch (shapeName.Trim().ToLowerInvariant()) // Clean the name again
         {
+            case "circle":
+                shape = new Circle();
+                break;
             case "rectangle":
                 shape = new Rectangle();
                 break;
@@ -95,8 +104,11 @@ public sealed class ShapeCalculator
             case "square":
                 shape = new Square();
                 break;
+            case "trapezoid":
+                shape = new Trapezoid();
+                break;
             default:
-                throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Rectangle, Square or Triangle.");
+                throw new ArgumentException($"The shape name '{shapeName}' is not supported, please choose Circle, Rectangle, Square, Trapezoid or Triangle.");
         }
 
         _shapes.Add(shape);

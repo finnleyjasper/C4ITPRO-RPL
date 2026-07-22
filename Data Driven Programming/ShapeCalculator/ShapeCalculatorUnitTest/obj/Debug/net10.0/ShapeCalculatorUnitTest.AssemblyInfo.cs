@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShapeCalculatorUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b529127a295fc9164eddaee6d0dd9920115f0af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dda7b459fba55dffd0d1d9717c08b707d4bb10c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShapeCalculatorUnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShapeCalculatorUnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

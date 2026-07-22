@@ -1,0 +1,15 @@
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/bin/Debug/net8.0/Session1
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/bin/Debug/net8.0/Session1.deps.json
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/bin/Debug/net8.0/Session1.runtimeconfig.json
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/bin/Debug/net8.0/Session1.dll
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/bin/Debug/net8.0/Session1.pdb
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.AssemblyInfoInputs.cache
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.AssemblyInfo.cs
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.csproj.CoreCompileInputs.cache
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.sourcelink.json
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.dll
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/refint/Session1.dll
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.pdb
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/Session1.genruntimeconfig.cache
+/Users/finnleynewnham/Documents/GitHub/C4ITPRO-RPL/Data Driven Programming/Session1/obj/Debug/net8.0/ref/Session1.dll

@@ -8,12 +8,14 @@ namespace ShapeCalculator;
  * Purpose:
  * Allows the use of a shape calculator through a command-line interface.
  *
- * Use dotnet run --project ShapeCalculator/ShapeCalculator/ShapeCalculator.csproj to run.
+ * Use dotnet 3 to run.
  */
 
 /// <summary>
 /// Provides the command-line entry point for the application and user interface with flavour text.
 /// </summary>
+
+// Internal = accessible within this project/assembly
 internal static class Program
 {
     /// <summary>
@@ -47,7 +49,7 @@ internal static class Program
             switch (selection)
             {
                 case "1":
-                    Console.WriteLine("Please enter the name of the shape to add.\n > Supported shapes are: square, triangle, and rectangle");
+                    Console.WriteLine("Please enter the name of the shape to add.\n > Supported shapes are: circle, square, triangle, rectangle, and trapezoid");
                     string newShapeName = Console.ReadLine() ?? "";
 
                     try
@@ -55,7 +57,11 @@ internal static class Program
                         if (shapeCalculator.ShapeNameValid(newShapeName))
                         {
                             Console.WriteLine($"Great! Lets add a {newShapeName} to the calculator. Please enter the side lengths as whole numbers, separated by commas.");
-                            Console.WriteLine($"\n! As a reminder, a square requires one side length, a rectangle requires a width and height, and a triangle requires three side lengths.");
+                            Console.WriteLine($"\n! As a reminder, a circle requires one radius, a square requires one side length, a rectangle requires a width and height, and a triangle requires three side lengths.");
+                            if (newShapeName.Trim().Equals("trapezoid", StringComparison.OrdinalIgnoreCase))
+                            {
+                                Console.WriteLine("A trapezoid requires five values in this order: base 1, base 2, side 1, side 2, height.");
+                            }
                             Console.WriteLine($"Please separate the side lengths with commas, and do not include any letters or symbols.");
                             string? sideLengthsInput = Console.ReadLine()?.Trim();
 
