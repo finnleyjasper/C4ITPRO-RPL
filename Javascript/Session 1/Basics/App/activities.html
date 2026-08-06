@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Random Word</h1>
+    <p id="p1">Random word here</p>
+    <script>
+        let myArray = ['fish', 'fishSTIX', 'the clone wars', 'orange peels'];
+        let min = 0;
+        let max = myArray.length;
+        let random = Math.floor(Math.random() * (max - min)) + min;
+        document.getElementById("p1").textContent = myArray[random];
+
+
+        function giveResponse(result) {
+            if (average(results) > 7) {
+                document.getElementById("myContent").innerText += "Good job!\n";
+            } else if (average(results) > 4) {
+                document.getElementById("myContent").innerText += "You need to work harder!\n";
+            } else {
+                document.getElementById("myContent").innerText += "Failed, you really need to work harder!\n";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
